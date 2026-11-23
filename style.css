@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('https://img.magnific.com/premium-photo/silhouette-bird-dark-forest_1150025-81393.jpg?semt=ais_hybrid&w=740&q=80');
+    backdrop-filter: blur(6px);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    height: 500px;
+    width: 600px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+
+.duo{
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Nunito", system-ui, sans-serif;
+}
+
+.guess{
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.between{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#box1{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#box2{
+    height: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scores{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid hidden;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 1.0);
+}
+
+.chances{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+#buttonbox{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 50px;    
+}
+
+.num{
+    height: 65px;
+    width: 65px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.6);
+}
+
+.num:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.luck{
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#again{
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
